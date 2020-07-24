@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SVG Frame</title>
+
+  <style>
+    #controls {
+      outline: 1px solid gray;
+      padding: 0.5rem;
+    }
+
+    #svg_container > svg {
+      width: 50%;
+      height: 50%;
+      display: block;
+    }
+
+    /* Adding this breaks the animation on Chrome, so we have to reset */
+    #svg_container > svg:-webkit-full-screen {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      background: none;
+    }
+
+  </style>
+
+  <script src="./js/svg-edit.js" defer></script>
+  <script src="./js/svg-load-save.js" defer></script>
+</head>
+<body>
+  <h1>SVG Frame</h1>
+  <section id="controls">
+    <label>
+      Upload SVG file:
+      <input type="file" id="svg_upload" accept=".svg">
+    </label>
+
+    <label>
+      Select server file:
+      <select id="server_file_select"> 
+        <option value="none" selected>none</option> 
+        <option value="server_file_1.svg">server file 1</option> 
+        <option value="server_file_2.svg">server file 2</option>
+      </select> 
+    </label>
+
+    <button id="fullscreen_button">fullscreen</button>
+
+    <button id="save_file_button">save file</button>
+  </section>
+  <section id="svg_container">
+
+  </section>
+</body>
+</html>
