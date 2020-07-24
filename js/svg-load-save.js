@@ -9,7 +9,7 @@ window.onload = function() {
   document.getElementById(`save_file_button`).addEventListener(`click`, save_file, false);
 
   // fullscreen
-  document.getElementById(`fullscreen_button`).addEventListener(`click`, go_fullscreen, false);
+  document.getElementById(`fullscreen_button`).addEventListener(`click`, display_svg_fullscreen, false);
 }
 
 /* Uploads SVG files from local file system, based on file selected in input */
@@ -94,7 +94,7 @@ function save_file () {
 
 
 /* Makes embedded SVG element go fullscreen, apart from host parent HTML file */
-function go_fullscreen () {
+function display_svg_fullscreen () {
   const svg_el = document.querySelector("#svg_container > svg");
   if (svg_el.requestFullscreen) {
     svg_el.requestFullscreen();
