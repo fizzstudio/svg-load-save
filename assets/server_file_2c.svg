@@ -1,5 +1,0 @@
-<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" tabindex="0">
-  <rect id="rect_1" x="10" y="25" width="20" height="20" fill="crimson" tabindex="0" aria-label="red box" />
-  <rect id="rect_2" x="40" y="25" width="20" height="20" fill="navy" tabindex="0" aria-label="blue box"/>
-  <rect id="rect_3" x="70" y="25" width="20" height="20" fill="gold" tabindex="0" aria-label="gold box"/>
-</svg>
