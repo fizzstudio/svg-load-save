@@ -33,19 +33,15 @@
 <body>
   <h1>SVG Frame</h1>
   <section id="controls">
-    <label>
-      Upload SVG file:
-      <input type="file" id="svg_upload" accept=".svg">
-    </label>
+    <label for="svg_upload">Upload SVG file:</label>
+    <input type="file" id="svg_upload" accept=".svg">
 
-    <label>
-      Select server file:
-      <select id="server_file_select"> 
-        <option value="none" selected>none</option> 
-        <option value="server_file_1.svg">server file 1</option> 
-        <option value="server_file_2.svg">server file 2</option>
-      </select> 
-    </label>
+    <label for="server_file_select">Select server file:</label>
+    <select id="server_file_select"> 
+      <option value="none" selected>none</option> 
+      <option value="server_file_1.svg">server file 1</option> 
+      <option value="server_file_2.svg">server file 2</option>
+    </select>
 
     <button id="fullscreen_button">fullscreen</button>
 
