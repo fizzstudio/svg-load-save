@@ -1,8 +1,0 @@
-<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" tabindex="0">
-  <rect id="rect_1" x="0" y="40" width="30" height="30" fill="navy" tabindex="0">
-    <title>blue box</title>
-  </rect>
-  <rect id="rect_2" x="70" y="0" width="30" height="30" fill="crimson" tabindex="0">
-    <title>red box</title>
-  </rect>
-</svg>
