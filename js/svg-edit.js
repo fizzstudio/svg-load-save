@@ -6,6 +6,7 @@ function add_stroke(event) {
 
   // announce status
   const status = document.getElementById("status");
+  status.textContent = "";
   status.textContent = "box clicked";
 }
 
