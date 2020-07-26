@@ -1,0 +1,8 @@
+{
+  "files": [
+    { "name": "server_file_1.svg", "label": "server file 1" }, 
+    { "name": "server_file_2.svg", "label": "server file 2" }, 
+    { "name": "server_file_3.svg", "label": "server file 3" }, 
+    { "name": "server_file_4.svg", "label": "server file 4" }
+  ]
+}    
